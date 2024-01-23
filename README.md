@@ -24,7 +24,7 @@ Fuck off:
 from async_foaas import Fuck
 import asyncio
 
-fuck = Fuck(secure=True)
+fuck = Fuck()
 
 async def main():
   fuck_off = await fuck.off(name='Tom', from_='Chris').text
