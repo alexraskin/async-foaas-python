@@ -13,7 +13,7 @@ A simple Async Python library to [FOAAS].
 This package relies on [httpx], [async-property]  and should be installed with [pip]:
 
 ```python
-pip install async_foaas
+pip install async-foaas
 ```
 
 ### Basic Usage
