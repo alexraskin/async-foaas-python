@@ -125,7 +125,7 @@ class Fuck:
 
     def build_url(self, path: str, **kwargs):
         params = dict([(k.rstrip("_"), quote(v)) for k, v in kwargs.items() if v])
-        url = "{protocol}://foaas.dev/{path}".format(
+        url = "{protocol}://foaas.alexraskin.com/{path}".format(
             protocol="https" if self.secure else "http", path=path.format(**params)
         )
         return url
